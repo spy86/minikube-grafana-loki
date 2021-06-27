@@ -28,7 +28,7 @@ echo "Create namespace"
 sudo kubectl create ns loki
 
 echo "Install Loki stack"
-sudo helm upgrade --install loki grafana/loki-stack  --set grafana.enabled=true,prometheus.enabled=true,prometheus.alertmanager.persistentVolume.enabled=false,prometheus.server.persistentVolume.enabled=false -n loki
+sudo helm upgrade --install loki grafana/loki-stack  --set grafana.enabled=true,prometheus.enabled=true,prometheus.alertmanager.persistentVolume.enabled=false,prometheus.server.persistentVolume.enabled=false,plugins=grafana-piechart-panel -n loki
 sudo kubectl apply -f /vagrant/files/grafana-ingress.yaml
 SHELL
 end
