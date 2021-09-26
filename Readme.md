@@ -1,6 +1,6 @@
 # Vagrantbox Minikube/Grafana/Loki
 
-![GitHub issues](https://img.shields.io/github/issues/spy86/minikube-grafana-loki) ![GitHub forks](https://img.shields.io/github/forks/spy86/minikube-grafana-loki) ![GitHub stars](https://img.shields.io/github/stars/spy86/minikube-grafana-loki) ![GitHub](https://img.shields.io/github/license/spy86/minikube-grafana-loki) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Prerequisites
 * Vagrant - https://www.vagrantup.com/downloads
